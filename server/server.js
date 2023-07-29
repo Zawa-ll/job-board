@@ -7,7 +7,7 @@ import { readFile } from 'node:fs/promises'
 import { resolvers } from './resolvers.js'
 
 
-const PORT = 9001;
+const PORT = 9002;
 
 const app = express();
 app.use(cors(), express.json(), authMiddleware);
